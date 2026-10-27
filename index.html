@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio profesional de Sebastián Gutiérrez: estudiante de ASIR, sistemas, redes, soporte técnico y atención al cliente.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Sebastián Gutiérrez | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">SG</span><span>Sebastián Gutiérrez</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a><a href="#proyectos">Proyectos</a><a href="#experiencia">Experiencia</a>
+      <a class="nav-cta" href="#contacto">Contactar <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> DISPONIBLE PARA NUEVAS OPORTUNIDADES</div>
+        <h1>Hola, soy<br><span class="gradient-text">Sebastián.</span></h1>
+        <p class="hero-subtitle">Tecnología, soluciones y ganas de <span id="rotating-word">aprender</span><span class="cursor">|</span></p>
+        <p class="hero-description">Estudiante de Administración de Sistemas Informáticos en Red, con formación en sistemas microinformáticos y experiencia en atención al cliente, logística y trabajos técnicos.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↘</span></a>
+          <a class="button button-ghost" href="#contacto">Hablemos <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-icon">⌖</span> Zaragoza, España</span><span><span class="meta-icon">⌘</span> ASIR · SMR</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Ilustración abstracta de tecnología">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core-card">
+          <div class="window-dots"><i></i><i></i><i></i><span>portfolio.sh</span></div>
+          <div class="terminal-lines">
+            <p><span class="code-muted">$</span> whoami</p><p class="code-accent">sebastian-gutierrez</p>
+            <p><span class="code-muted">$</span> focus --current</p><p class="code-white">systems · networks · people</p>
+            <p><span class="code-muted">$</span> status</p><p><span class="code-green">●</span> learning and building</p>
+            <p class="terminal-caret">_</p>
+          </div>
+        </div>
+        <div class="floating-chip chip-linux"><span>⌘</span> Linux</div>
+        <div class="floating-chip chip-network"><span>◎</span> Redes</div>
+        <div class="floating-chip chip-people"><span>✳</span> Personas</div>
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span class="scroll-line"></span> DESLIZA PARA CONOCERME</a>
+    </section>
+
+    <section class="intro section-wrap section-block" id="sobre-mi">
+      <div class="section-label reveal"><span>01</span> / SOBRE MÍ</div>
+      <div class="intro-grid">
+        <h2 class="section-title reveal">Me gusta entender cómo funcionan las cosas <span class="gradient-text">y encontrar soluciones.</span></h2>
+        <div class="intro-text reveal"><p>Estoy formándome en administración de sistemas, redes y servicios informáticos. Disfruto aprendiendo con prácticas reales, investigando errores y buscando la manera de resolverlos.</p><p>También aporto experiencia en entornos de trabajo donde cuentan el trato con las personas, la organización, la responsabilidad y el trabajo en equipo. Me adapto con facilidad y aprendo rápido.</p><div class="text-link-row"><a class="text-link" href="#experiencia">Conocer mi experiencia <span>↗</span></a></div></div>
+      </div>
+      <div class="value-grid">
+        <article class="value-card reveal"><span class="value-number">01</span><div class="value-icon">⌘</div><h3>Mentalidad técnica</h3><p>Aprender, probar y documentar soluciones paso a paso.</p></article>
+        <article class="value-card reveal"><span class="value-number">02</span><div class="value-icon">↗</div><h3>Orientación al cliente</h3><p>Escuchar, comunicar con claridad y ayudar a encontrar respuestas.</p></article>
+        <article class="value-card reveal"><span class="value-number">03</span><div class="value-icon">✳</div><h3>Adaptabilidad</h3><p>Disposición para asumir tareas nuevas y trabajar en equipo.</p></article>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-block" id="habilidades">
+      <div class="section-label reveal"><span>02</span> / HABILIDADES</div>
+      <div class="section-heading-row"><h2 class="section-title reveal">Una base técnica en construcción<span class="gradient-text">.</span></h2><p class="section-kicker reveal">Conocimientos adquiridos durante mi formación y prácticas. Iré ampliando esta sección con nuevos proyectos.</p></div>
+      <div class="skills-grid">
+        <article class="skill-panel reveal"><div class="panel-heading"><span class="panel-icon">⌘</span><h3>Sistemas y servicios</h3></div><div class="tag-list"><span>Debian / Linux</span><span>Windows</span><span>VirtualBox</span><span>Apache</span><span>PHP básico</span><span>Gestión de usuarios</span><span>Git</span></div></article>
+        <article class="skill-panel reveal"><div class="panel-heading"><span class="panel-icon">◎</span><h3>Redes e infraestructura</h3></div><div class="tag-list"><span>TCP/IP</span><span>Direccionamiento IP</span><span>DHCP</span><span>DNS</span><span>IPFire</span><span>VLAN (formación)</span><span>Copias de seguridad</span></div></article>
+        <article class="skill-panel reveal"><div class="panel-heading"><span class="panel-icon">✳</span><h3>Competencias personales</h3></div><div class="tag-list"><span>Atención al cliente</span><span>Comunicación</span><span>Organización</span><span>Trabajo en equipo</span><span>Aprendizaje rápido</span><span>Resolución de problemas</span></div></article>
+      </div>
+      <p class="small-note">Nota: las etiquetas describen conocimientos de formación y práctica; no implican certificaciones profesionales.</p>
+    </section>
+
+    <section class="projects section-wrap section-block" id="proyectos">
+      <div class="section-label reveal"><span>03</span> / PROYECTOS</div>
+      <div class="section-heading-row"><h2 class="section-title reveal">Aprender haciendo<span class="gradient-text">.</span></h2><p class="section-kicker reveal">Prácticas y ejercicios formativos que muestran mi proceso de aprendizaje.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal"><div class="project-visual visual-terminal"><div class="mini-window"><div class="mini-top"><i></i><i></i><i></i><span>debian — terminal</span></div><div class="mini-code"><p><b>$</b> sudo systemctl status apache2</p><p class="success">● apache2.service — active</p><p><b>$</b> git log --oneline</p><p class="muted">commits · versionado · documentación</p></div></div><span class="visual-index">PROJECT / 01</span></div><div class="project-info"><div class="project-type">SISTEMAS · FORMACIÓN</div><h3>Servicios en Linux</h3><p>Prácticas de administración en Debian: instalación y comprobación de servicios, estructura de archivos y resolución de incidencias en un entorno virtualizado.</p><div class="project-tags"><span>Debian</span><span>Apache</span><span>VirtualBox</span></div><span class="project-status"><i></i> Proyecto formativo</span></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-network"><div class="network-map"><span class="node node-a">PC</span><span class="node node-b">DHCP</span><span class="node node-c">FW</span><span class="node node-d">WAN</span><svg viewBox="0 0 300 140" aria-hidden="true"><path d="M48 70 L110 35 L180 70 L250 35 M110 35 L110 110 L180 70 L250 105" /></svg></div><span class="visual-index">PROJECT / 02</span></div><div class="project-info"><div class="project-type">REDES · FORMACIÓN</div><h3>Redes y servicios</h3><p>Ejercicios de direccionamiento IP, configuración de servicios de red y análisis de conectividad en laboratorio.</p><div class="project-tags"><span>TCP/IP</span><span>DHCP</span><span>IPFire</span></div><span class="project-status"><i></i> Proyecto formativo</span></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-git"><div class="git-branches"><span class="git-dot dot-1"></span><span class="git-dot dot-2"></span><span class="git-dot dot-3"></span><span class="git-dot dot-4"></span><span class="git-line line-1"></span><span class="git-line line-2"></span><span class="git-line line-3"></span><div class="git-label">git commit<br><strong>progreso continuo</strong></div></div><span class="visual-index">PROJECT / 03</span></div><div class="project-info"><div class="project-type">HERRAMIENTAS · FORMACIÓN</div><h3>Control de versiones</h3><p>Creación de repositorios, organización de archivos, commits y documentación básica de ejercicios con Git.</p><div class="project-tags"><span>Git</span><span>Markdown</span><span>Terminal</span></div><span class="project-status"><i></i> Proyecto formativo</span></div></article>
+      </div>
+      <div class="project-disclaimer">Estos ejemplos describen áreas de prácticas formativas. Añade capturas, repositorios y resultados propios cuando los tengas disponibles.</div>
+    </section>
+
+    <section class="experience section-wrap section-block" id="experiencia">
+      <div class="section-label reveal"><span>04</span> / EXPERIENCIA Y FORMACIÓN</div>
+      <div class="section-heading-row"><h2 class="section-title reveal">Más que tecnología<span class="gradient-text">.</span></h2><p class="section-kicker reveal">Una combinación de formación técnica y experiencia en el entorno laboral.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">AGOSTO – SEPTIEMBRE 2026</div><div class="timeline-content"><h3>Operario de producción · SMR Automotive Systems Spain</h3><p>Montaje de componentes en línea de producción, apoyo en tareas del proceso productivo y cumplimiento de los procedimientos de seguridad y trabajo en equipo.</p><span class="timeline-place">Producción · Trabajo en equipo · Procedimientos de seguridad</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">MARZO – JUNIO 2025</div><div class="timeline-content"><h3>Prácticas · Talleres Malpica</h3><p>Organización de almacén, inventario y control de stock; atención y asesoramiento al cliente; gestión de pedidos y ventas mediante tienda online.</p><span class="timeline-place">Almacén · Atención al cliente · Tienda online</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">VERANO 2024</div><div class="timeline-content"><h3>Repartidor de paquetería</h3><p>Organización de rutas y entrega de pedidos, cuidando la organización del trabajo y el cumplimiento de las entregas.</p><span class="timeline-place">Logística · Organización de rutas · Entregas</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">JUNIO 2024</div><div class="timeline-content"><h3>Operario de pintura</h3><p>Preparación de superficies y realización de trabajos de pintura.</p><span class="timeline-place">Trabajo manual · Preparación de superficies</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">VERANO 2022</div><div class="timeline-content"><h3>Promotor comercial</h3><p>Captación de clientes y promoción de establecimientos.</p><span class="timeline-place">Promoción comercial · Comunicación con clientes</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">VERANO 2021</div><div class="timeline-content"><h3>Ayudante de electricista</h3><p>Apoyo en instalaciones eléctricas y montaje de ventiladores.</p><span class="timeline-place">Trabajos técnicos · Apoyo en instalaciones</span></div></article>
+      </div>
+      <div class="education-strip reveal">
+        <div class="education-heading"><span class="banner-eyebrow">FORMACIÓN</span><h3>Mi recorrido académico</h3></div>
+        <div class="education-item"><span class="education-marker">01</span><div><strong>Grado Superior en Administración de Sistemas Informáticos en Red (ASIR)</strong><p>IES Pablo Serrano, Zaragoza · 2025 – Actualidad</p></div></div>
+        <div class="education-item"><span class="education-marker">02</span><div><strong>Curso de Ciberseguridad</strong><p>Deusto Formación · 2024 – 2026</p></div></div>
+        <div class="education-item"><span class="education-marker">03</span><div><strong>Grado Medio en Sistemas Microinformáticos y Redes (SMR)</strong><p>Izquierdo FP, Zaragoza · 2023 – 2025</p></div></div>
+        <div class="education-item"><span class="education-marker">04</span><div><strong>Educación Secundaria Obligatoria (ESO)</strong><p>IES Agustín Gericó, Zaragoza · 2019 – 2023</p></div></div>
+      </div>
+      <div class="cv-banner reveal"><div><span class="banner-eyebrow">¿QUIERES SABER MÁS?</span><h3>Te cuento más en mi currículum.</h3><p>Consulta mi formación, experiencia y disponibilidad en mi currículum.</p></div><a class="button button-primary" href="cv.pdf" download="Sebastian_Gutierrez_CV.pdf">Descargar CV <span>↓</span></a></div>
+    </section>
+
+    <section class="contact section-wrap section-block" id="contacto">
+      <div class="section-label reveal"><span>05</span> / CONTACTO</div>
+      <div class="contact-card reveal"><div class="contact-copy"><span class="eyebrow">¿HABLAMOS?</span><h2>Las buenas oportunidades empiezan con una conversación<span class="gradient-text">.</span></h2><p>Estoy abierto a oportunidades en informática, soporte técnico, atención al cliente y retail.</p></div><div class="contact-actions"><a class="contact-link" id="email-link" href="mailto:sebastiangume1@gmail.com"><span class="contact-symbol">✉</span><span><small>ESCRÍBEME</small><strong id="email-text">sebastiangume1@gmail.com</strong></span><span class="arrow">↗</span></a><a class="contact-link" id="phone-link" href="tel:+34693998665"><span class="contact-symbol">☎</span><span><small>LLÁMAME</small><strong>693 998 665</strong></span><span class="arrow">↗</span></a><p class="contact-hint" id="contact-hint">Zaragoza, España · Incorporación inmediata · Disponibilidad de mañanas, fines de semana y festivos · Flexibilidad horaria.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand" href="#inicio"><span class="brand-mark">SG</span><span>Sebastián Gutiérrez</span></a><p>Hecho con curiosidad, café y muchas ganas de aprender.</p><a href="#inicio" class="back-top">Volver arriba ↑</a><span class="copyright">© <span id="year"></span> Sebastián Gutiérrez</span></footer>
+</body>
+</html>
